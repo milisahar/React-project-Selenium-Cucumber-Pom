@@ -1,0 +1,218 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2390262100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Setup.setup()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Je souhaite vérifier que es liens Tâches et Déconnexion apparaissent- cas passant",
+        "description": "",
+        "id": "navbar;je-souhaite-vérifier-que-es-liens-tâches-et-déconnexion-apparaissent--cas-passant",
+        "after": [
+          {
+            "result": {
+              "duration": 1396217400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Setup.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1695343600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "j\u0027ouvre l\u0027application todolist",
+            "match": {
+              "location": "AuthentificationStepDefinition.jOuvreLApplicationTodolist()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 513095500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Je saisie le mail \"test@test.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test@test.com",
+                  "offset": 19
+                }
+              ],
+              "location": "AuthentificationStepDefinition.jeSaisieLeMail(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 56572600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Je saisie le mot de passe \"test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test",
+                  "offset": 27
+                }
+              ],
+              "location": "AuthentificationStepDefinition.jeSaisieLeMotDePasse(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66696800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Je clique sur le bouton Envoyer",
+            "match": {
+              "location": "AuthentificationStepDefinition.jeCliqueSurLeBoutonEnvoyer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6851300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Redirection vers la page tasks \"http://localhost:3000/tasks\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://localhost:3000/tasks",
+                  "offset": 32
+                }
+              ],
+              "location": "AuthentificationStepDefinition.redirectionVersLaPageTasks(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 47921900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "les liens Tâches et Déconnexion sont bien affiches",
+            "match": {
+              "location": "NavbarStepDef.lesLiensTchesEtDconnexionSontBienAffiches()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@navbar1"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1772775400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Setup.setup()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Je souhaite vérifier que es liens Tâches et Déconnexion apparaissent- cas passant",
+        "description": "",
+        "id": "navbar;je-souhaite-vérifier-que-es-liens-tâches-et-déconnexion-apparaissent--cas-passant",
+        "after": [
+          {
+            "result": {
+              "duration": 1415530400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Setup.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1929296500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "j\u0027ouvre l\u0027application todolist",
+            "match": {
+              "location": "AuthentificationStepDefinition.jOuvreLApplicationTodolist()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 29107600,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertFalse(Assert.java:64)\r\n\tat org.junit.Assert.assertFalse(Assert.java:74)\r\n\tat com.exercice.e2eTests.navbar.stepDef.NavbarStepDef.lesLiensTchesEtDconnexionNeSontPasAffiches(NavbarStepDef.java:35)\r\n\tat ✽.Then les liens Tâches et Déconnexion ne sont pas affiches(navbar/Navbar.feature:17)\r\n",
+              "status": "failed"
+            },
+            "output": [
+              "Current page url is http://localhost:3000/"
+            ],
+            "embeddings": [
+              {
+                "data": "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CasAAAAAAIWEVQAAAACAQsIqAAAAAEAhYRUAAAAAoJCwCgAAAABQSFgFAAAAACgkrAIAAAAAFBJWAQAAAAAKCasAAAAAAIWEVQAAAACAQsIqAAAAAEAhYRUAAAAAoJCwCgAAAABQSFgFAAAAACgkrAIAAAAAFBJWAQAAAAAKCasAAAAAAIWEVQAAAACAQsIqAAAAAEAhYRUAAAAAoJCwCgAAAABQSFgFAAAAACgkrAIAAAAAFBJWAQAAAAAKCasAAAAAAIWEVQAAAACAQsIqAAAAAEAhYRUAAAAAoJCwCgAAAABQSFgFAAAAACgkrAIAAAAAFBJWAQAAAAAKCasAAAAAAIWEVQAAAACAQsIqAAAAAEAhYRUAAAAAoJCwCgAAAABQSFgFAAAAACgkrAIAAAAAFBJWAQAAAAAKCasAAAAAAIWEVQAAAACAQsIqAAAAAEAhYRUAAAAAoJCwCgAAAABQSFgFAAAAACgkrAIAAAAAFBJWAQAAAAAKCasAAAAAAIWEVQAAAACAQsIqAAAAAEAhYRUAAAAAoJCwCgAAAABQSFgFAAAAACgkrAIAAAAAFBJWAQAAAAAKCasAAAAAAIWEVQAAAACAQsIqAAAAAEAhYRUAAAAAoJCwCgAAAABQSFgFAAAAACgkrAIAAAAAFBJWAQAAAAAKCasAAAAAAIWEVQAAAACAQsIqAAAAAEAhYRUAAAAAoJCwCgAAAABQSFgFAAAAACgkrAIAAAAAFBJWAQAAAAAKCasAAAAAAIWEVQAAAACAQsIqAAAAAEAhYRUAAAAAoJCwCgAAAABQSFgFAAAAACgkrAIAAAAAFBJWAQAAAAAKCasAAAAAAIWEVQAAAACAQsIqAAAAAEAhYRUAAAAAoJCwCgAAAABQSFgFAAAAACgkrAIAAAAAFBJWAQAAAAAKCasAAAAAAIWEVQAAAACAQsIqAAAAAEAhYRUAAAAAoJCwCgAAAABQSFgFAAAAACgkrAIAAAAAFBJWAQAAAAAKCasAAAAAAIWEVQAAAACAQsIqAAAAAEAhYRUAAAAAoJCwCgAAAABQSFgFAAAAACgkrAIAAAAAFBJWAQAAAAAKCasAAAAAAIWEVQAAAACAQsIqAAAAAEAhYRUAAAAAoJCwCgAAAABQSFgFAAAAACgkrAIAAAAAFBJWAQAAAAAKCasAAAAAAIWEVQAAAACAQsIqAAAAAEAhYRUAAAAAoJCwCgAAAABQSFgFAAAAACgkrAIAAAAAFBJWAQAAAAAKCasAAAAAAIWEVQAAAACAQsIqAAAAAEAhYRUAAAAAoJCwCgAAAABQSFgFAAAAACgkrAIAAAAAFBJWAQAAAAAKCasAAAAAAIWEVQAAAACAQsIqAAAAAEAhYRUAAAAAoJCwCgAAAABQSFgFAAAAACgkrAIAAAAAFBJWAQAAAAAKCasAAAAAAIWEVQAAAID/vx07FgAAAAAY5G89hv2FEcAkVgEAAAAAJrEKAAAAADCJVQAAAACASawCAAAAAExiFQAAAABgEqsAAAAAAJNYBQAAAACYxCoAAAAAwCRWAQAAAAAmsQoAAAAAMIlVAAAAAIBJrAIAAAAATGIVAAAAAGASqwAAAAAAk1gFAAAAAJjEKgAAAADAJFYBAAAAACaxCgAAAAAwiVUAAAAAgEmsAgAAAABMYhUAAAAAYBKrAAAAAACTWAUAAAAAmMQqAAAAAMAkVgEAAAAAJrEKAAAAADCJVQAAAACASawCAAAAAExiFQAAAABgEqsAAAAAAJNYBQAAAACYxCoAAAAAwCRWAQAAAAAmsQoAAAAAMIlVAAAAAIBJrAIAAAAATGIVAAAAAGASqwAAAAAAk1gFAAAAAJjEKgAAAADAJFYBAAAAACaxCgAAAAAwiVUAAAAAgEmsAgAAAABMYhUAAAAAYBKrAAAAAACTWAUAAAAAmMQqAAAAAMAkVgEAAAAAJrEKAAAAADCJVQAAAACASawCAAAAAExiFQAAAABgEqsAAAAAAJNYBQAAAACYxCoAAAAAwCRWAQAAAAAmsQoAAAAAMIlVAAAAAIBJrAIAAAAATGIVAAAAAGASqwAAAAAAk1gFAAAAAJjEKgAAAADAJFYBAAAAACaxCgAAAAAwiVUAAAAAgEmsAgAAAABMYhUAAAAAYBKrAAAAAACTWAUAAAAAmMQqAAAAAMAkVgEAAAAAJrEKAAAAADCJVQAAAACASawCAAAAAExiFQAAAABgEqsAAAAAAJNYBQAAAACYxCoAAAAAwCRWAQAAAAAmsQoAAAAAMIlVAAAAAIBJrAIAAAAATGIVAAAAAGASqwAAAAAAk1gFAAAAAJjEKgAAAADAJFYBAAAAACaxCgAAAAAwiVUAAAAAgEmsAgAAAABMYhUAAAAAYBKrAAAAAACTWAUAAAAAmMQqAAAAAMAkVgEAAAAAJrEKAAAAADCJVQAAAACASawCAAAAAExiFQAAAABgEqsAAAAAAJNYBQAAAACYxCoAAAAAwCRWAQAAAAAmsQoAAAAAMIlVAAAAAIBJrAIAAAAATAE6uscEygchMgAAAABJRU5ErkJggg\u003d\u003d",
+                "mime_type": "image/png"
+              }
+            ],
+            "line": 17,
+            "name": "les liens Tâches et Déconnexion ne sont pas affiches",
+            "match": {
+              "location": "NavbarStepDef.lesLiensTchesEtDconnexionNeSontPasAffiches()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 14,
+            "name": "@navbar2"
+          }
+        ]
+      }
+    ],
+    "name": "Navbar",
+    "description": "en tant que utilisateur je souhaite vérifier que es liens Tâches et Déconnexion apparaissent.",
+    "id": "navbar",
+    "keyword": "Feature",
+    "uri": "navbar/Navbar.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@navbar"
+      }
+    ]
+  }
+]
